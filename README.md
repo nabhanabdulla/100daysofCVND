@@ -5,7 +5,8 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 ## Day 1/100 (September 30, 2019):
 
 > I do herby solemnly ...
-      <img src="images/1.30daysofudacity-pledge.png">
+
+   <img src="images/1.30daysofudacity-pledge.png" width="640">
 
 > **1. CVND**:
 
