@@ -1,36 +1,24 @@
-# 60daysofudacity
-Updating and tracking progress for [#60daysofudacity](https://sites.google.com/udacity.com/secureprivateai-challenge/community/60daysofudacity?authuser=0) during Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)
+# 100daysofCVND 30daysofudacity
+Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
+
+
+## Day 1/100 (September 30, 2019):
+
+> I do herby solemnly ...
+
+   <img src="images/1.30daysofudacity-pledge.png" width="640">
+
+> **1. CVND**:
+
+   * Change image background by basic image processing techniques using OpenCV
+      <img src="images/1.nabhan1-space.jpg">
+   
+   * Day/Night image classifier on 200 images from the AMOS(Archive of Many Outdoor Scenes) dataset with an accuracy of 0.9375 by only manual feature extraction making use of HSV color-space
+      <img src="images/1.day-night-classification.jpg">
 
 
 
-<div id="col10" class="update-col">
-
-  <div id="day20" class="daily-update col10 right">
-
-  </div>
-
-  <div id="day19" class="daily-update col10 left">
-
-## Day 19/60:
-
-1. Getting familiar with YOLO Object Detection algorithm - [deeplearning.ai](https://www.youtube.com/watch?v=9s_FpMpdYW8&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=30)
-2. Discussion on YOLO in #sg_wonder_vision [study group](https://sites.google.com/udacity.com/secureprivateai-challenge/community/study-groups?authuser=0) meetup
-3. [AMA session](https://www.youtube.com/watch?v=9D_jxOMZmRI) with Robert Wagner(Bobby) on privacy practices and his experience with contributing to [PySyft](https://github.com/OpenMined/PySyft)
-
-<div class="slack-update" id="slack-update-19">
-
-<img src="" alt="Slack update day 19" class="slack-update" id="slack-update-19-0">
-
-</div>
-
-  </div>
-
-</div>
-
-<div id="col9" class="update-col">
-  
-  <div id="day18" class="daily-update col9 right" >
-
+<!--
 ## Day 18/60:
 
 1. Lesson 5 - [Introduction to deep learning with pytorch](https://classroom.udacity.com/courses/ud188)
@@ -62,3 +50,4 @@ Updating and tracking progress for [#60daysofudacity](https://sites.google.com/u
 
   </div>
 </div>
+-->
