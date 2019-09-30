@@ -1,5 +1,5 @@
-# 60daysofudacity
-Updating and tracking progress for [#60daysofudacity](https://sites.google.com/udacity.com/secureprivateai-challenge/community/60daysofudacity?authuser=0) during Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)
+# 100daysofCV 30daysofudacity
+Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCV while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
 
@@ -11,26 +11,18 @@ Updating and tracking progress for [#60daysofudacity](https://sites.google.com/u
 
   <div id="day19" class="daily-update col10 left">
 
-## Day 19/60:
+## Day 1/100 (September 30, 2019):
 
-1. Getting familiar with YOLO Object Detection algorithm - [deeplearning.ai](https://www.youtube.com/watch?v=9s_FpMpdYW8&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=30)
-2. Discussion on YOLO in #sg_wonder_vision [study group](https://sites.google.com/udacity.com/secureprivateai-challenge/community/study-groups?authuser=0) meetup
-3. [AMA session](https://www.youtube.com/watch?v=9D_jxOMZmRI) with Robert Wagner(Bobby) on privacy practices and his experience with contributing to [PySyft](https://github.com/OpenMined/PySyft)
+> **1. CVND**:
 
-<div class="slack-update" id="slack-update-19">
+   * Change image background using basic image processing
+   * Day/Night image classifier on 200 images from the AMOS(Archive of Many Outdoor Scenes) dataset with an accuracy of 0.9375 by only manual feature extraction
 
-<img src="" alt="Slack update day 19" class="slack-update" id="slack-update-19-0">
 
-</div>
 
-  </div>
 
-</div>
 
-<div id="col9" class="update-col">
-  
-  <div id="day18" class="daily-update col9 right" >
-
+<!--
 ## Day 18/60:
 
 1. Lesson 5 - [Introduction to deep learning with pytorch](https://classroom.udacity.com/courses/ud188)
@@ -62,3 +54,4 @@ Updating and tracking progress for [#60daysofudacity](https://sites.google.com/u
 
   </div>
 </div>
+-->
