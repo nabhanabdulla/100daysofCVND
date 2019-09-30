@@ -1,18 +1,19 @@
-# 100daysofCV 30daysofudacity
-Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCV while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
+# 100daysofCVND 30daysofudacity
+Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
 ## Day 1/100 (September 30, 2019):
 
+> I do herby solemnly ...
+      <img src="images/1.30daysofudacity-pledge.png">
+
 > **1. CVND**:
 
-   * Change image background using basic image processing
+   * Change image background by basic image processing techniques using OpenCV
       <img src="images/1.nabhan1-space.jpg">
    
-   * Day/Night image classifier on 200 images from the AMOS(Archive of Many Outdoor Scenes) dataset with an accuracy of 0.9375 by only manual feature extraction
+   * Day/Night image classifier on 200 images from the AMOS(Archive of Many Outdoor Scenes) dataset with an accuracy of 0.9375 by only manual feature extraction making use of HSV color-space
       <img src="images/1.day-night-classification.jpg">
-
-
 
 
 
