@@ -4,11 +4,12 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 
 ## Day 2/100 (October 01, 2019):
 
-> **1. CVND **:
+> **1. CVND**:
 
    * Using Fourier transforms in Numpy to find frequency distribution of images ie, the variation of intensity in images. Fourier transform TRANSFORMS images in the x-y spatial space to the frequency space
+      <img src="images/2.Fourier Transform.jpg" width="640">
    * High pass filters and finding edges of images using Sobel operator in OpenCV
-
+      <img src="images/2. edge-sobel.jpg" width="640">
 
 ## Day 1/100 (September 30, 2019):
 
