@@ -1,6 +1,14 @@
 # 100daysofCVND 30daysofudacity
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
+## Day 3/30(October 02, 2019):
+
+> **1. CVND**:
+
+   * Learnt about low pass filters. Used OpenCV GaussianBlur function to blur brain image for reducing noise. Compared edge detection(sobel filter) on the blurred image and original image 
+      <img src="images/3.Gaussian-brain.jpg" width="640">
+   * High pass filters and finding edges of images using Sobel operator in OpenCV
+      <img src="images/3.freq-spectrum-ori-vs-blur.jpg" width="640">
 
 ## Day 2/100 (October 01, 2019):
 
