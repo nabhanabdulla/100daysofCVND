@@ -1,6 +1,13 @@
 # 100daysofCVND 30daysofudacity
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
+## Day 4/30(October 03, 2019):
+
+> Digged deep in to fourier transforms and how they work? 
+	Seems like there's a lot of applications to it. No wonder why Professor Gilbert Strang said that FFT is the most important numerical algorithm of our lifetime. There's still some things about it I don't really understand. But that's okay there's 2mrw.
+
+   
+
 ## Day 3/30(October 02, 2019):
 
 > **1. CVND**:
