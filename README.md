@@ -7,7 +7,7 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 
    * Learnt about low pass filters. Used OpenCV GaussianBlur function to blur brain image for reducing noise. Compared edge detection(sobel filter) on the blurred image and original image 
       <img src="images/3.Gaussian-brain.jpg" width="640">
-   * High pass filters and finding edges of images using Sobel operator in OpenCV
+   * Used fourier transform to visualize frequency spectrum of images and their filtered version
       <img src="images/3.freq-spectrum-ori-vs-blur.jpg" width="640">
 
 ## Day 2/100 (October 01, 2019):
