@@ -5,7 +5,7 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 
 **1. CVND**:
 
-   * Learnt Canny edge detection and techniques involved - non max suppression(thinning) and hysterisis thresholding(edge completion)
+   * Learnt Canny edge detection and techniques involved: non-max suppression(thinning) and hysteresis thresholding(edge completion)
 	<img src="images/5.canny_brain.jpg">
 
 ## Day 4/30(October 03, 2019):
