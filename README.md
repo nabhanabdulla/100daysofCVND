@@ -1,6 +1,18 @@
 # 100daysofCVND 30daysofudacity
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
+
+## Day 6/30(October 05, 2019):
+
+> 1. Discussed computer vision and tips to make good progress in the nanodegree in the first Computer Vision weekly meetup
+      <img src="images/6.cvnd_meetup.png">
+ 
+> 2. Completed Baseline: Data, ML, AI Qwiklabs quest as part of GCP #gcpchallenge
+      <img src="images/6.qwiklabs-baseline-data-ml.png">
+
+> 3. Watched MIT Self Driving Car State of the Art lecture
+
+
 ## Day 5/30(October 04, 2019):
 
 **1. CVND**:
@@ -8,13 +20,13 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
    * Learnt Canny edge detection and techniques involved: non-max suppression(thinning) and hysteresis thresholding(edge completion)
 	<img src="images/5.canny_brain.jpg">
 
+
 ## Day 4/30(October 03, 2019):
 
 > Digged deep in to fourier transforms and how they work? 
 	Seems like there's a lot of applications to it. No wonder why Professor Gilbert Strang said that FFT is the most important numerical algorithm of our lifetime. There's still some things about it I don't really understand. But that's okay there's 2mrw.
 
    
-
 ## Day 3/30(October 02, 2019):
 
 > **1. CVND**:
@@ -24,6 +36,7 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
    * Used fourier transform to visualize frequency spectrum of images and their filtered version
       <img src="images/3.freq-spectrum-ori-vs-blur.jpg" width="640">
 
+
 ## Day 2/100 (October 01, 2019):
 
 > **1. CVND**:
@@ -32,6 +45,7 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
       <img src="images/2.Fourier Transform.jpg" width="640">
    * High pass filters and finding edges of images using Sobel operator in OpenCV
       <img src="images/2. edge-sobel.jpg" width="640">
+
 
 ## Day 1/100 (September 30, 2019):
 
