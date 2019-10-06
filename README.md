@@ -2,6 +2,12 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 7/30(October 06, 2019):
+
+> 1. Learnt about Hough transform and used OpenCV to detect edges using Hough Transform
+      <img src="images/7.hough-line.jpg">
+      
+
 ## Day 6/30(October 05, 2019):
 
 > 1. Discussed computer vision and tips to make good progress in the nanodegree in the first Computer Vision weekly meetup
