@@ -2,6 +2,15 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 8/30(October 07, 2019)::
+
+> 1.Learnt about Hough transform for circles
+
+> 2.Started learning [Dive into Deep Learning book](https://www.d2l.ai/index.html) - Introduction
+
+> 3.Completed [WorldQuant University](https://wqu.org/programs/data-science) OOPS mini-project - coded k-means from scratch
+
+
 ## Day 7/30(October 06, 2019):
 
 > 1. Learnt about Hough transform and used OpenCV to detect edges using Hough Transform
