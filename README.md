@@ -2,6 +2,43 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 9/30(October 08, 2019):
+
+> 1. Completed [AI programming for Robotics localization](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373) exercises 
+
+	* Programmed basic localization
+		- Localisation primarily involves starting out with an INITIAL BELIEF of the robots surroundings(probability of its position)
+		- You sense objects in the environment to increase knowledge of the robots location
+		- When the robot moves, the location of the robot becomes more uncertain(assuming not exact motion)
+	
+> 2. Started off with [Project1: Facial Keypoint Detection](https://www.udacity.com/course/computer-vision-nanodegree--nd891)
+
+	* Completed loading and visualizing data, overrided Pytorch Dataset class.
+	for taking in the dataset. 
+		- __init__ : is run when the class is instantiated
+		- __call__ : required to call a class instance
+		- __len__ : to use the len() function
+		- __getitem__: to index the class instance 
+	
+> 3. [Learnt](https://realpython.com/python-coding-interview-tips/) some Python built-in library tricks 
+
+	* get(), setdefault(), defaultdict(), Counter(), f-strings
+
+> 4. [Dive into Deep Learning](https://www.d2l.ai/index.html) book - Introduction
+
+	* [Reinforcement Learning](https://www.d2l.ai/chapter_introduction/intro.html#reinforcement-learning)
+		- RL differs from supervised and unsupervised learning in the sense that the latter types of learning 
+			doesn't affect/consider the environment the data was collected from 
+		- RL as:
+			1. Markov Decision Process - when the environment in which learning occurs is fully observed 
+				eg: Playing chess(environment fully observed), Self Driving Car(environment-part of roads only in the range of sensors are observed)
+			2. Contextual Bandit Problem - when your actions doesn't affect the subsequent state of the environment but you utilize info from the environment(context)
+			3. Multi-armed Bandit Problem - wherein you take actions and try to find out which actions maximise the reward but doesn't get any information from the environment.
+			
+> 5. DSC HIT GCP challenge - Quest 2: [Intro to ML - Image Processing](https://www.qwiklabs.com/quests/85)
+
+	* Completed [APIs Explorer: Qwik Start](https://www.qwiklabs.com/focuses/2457?parent=catalog) hand-on lab
+			
 ## Day 8/30(October 07, 2019)::
 
 > 1.Learnt about Hough transform for circles
