@@ -2,6 +2,33 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 10/30(October 09 2019):
+
+> 1. Learnt about Haar Cascades for object detection and used pretrained face-detector architecture
+	to detect faces using OpenCV 
+	
+	- Utilizes many positive and negative labeled images to extract Haar features which detects different lines
+	and shapes
+	- In the next step of Haar Cascade, different regions of the image are searched for matching by a cascade of 
+	the extracted Haar features( they are tried on succession ) removing searched part of the image 
+	if the classification outcome is negative on that part for a feature effectively reducing the image space 
+	to search for faces.
+
+<img src="images/10.nitc1.jpg">
+	
+> 2. Learnt about Algorithmic Bias 
+
+	- Bias occurs when the training set isn't a good representative of the general population the model is 
+	supposed to make predictions on.
+	- Bias that creeps into our models can be a huge problem the intensity of which varies by the use case. 
+	- Use cases like probability of committing crime can cause problems if model is sensitive to different
+	face shapes and ethnic groups.
+	
+> 3. Implemented a Real-time face detector for both images and video based on this [article](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
+
+	- OpenCV has a built-in deep neural network module which has pretrained model for face detection.
+
+			
 ## Day 9/30(October 08, 2019):
 
 > 1. Completed [AI programming for Robotics localization](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373) exercises 
