@@ -2,6 +2,11 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 11/30(October 10 2019):
+
+> 1. Played around with Facial Keypoint Detection project
+
+
 ## Day 10/30(October 09 2019):
 
 > 1. Learnt about Haar Cascades for object detection and used pretrained face-detector architecture
