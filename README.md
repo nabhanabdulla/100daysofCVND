@@ -2,6 +2,33 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 16/30(October 15, 2019):
+
+> 1. Learnt about carrying out object detection on occlusion
+
+	- The pre-saved specifications of an object can be utilized to know if the object is occluded
+	
+	- Two cases of occlusion can happen - either a single object will be detected twice 
+	when its middle part is not visible due to occlusion or shorter bounding box for the object
+	
+	- Color of detected objects can be used to merge objects occluded in the former manner while
+	increasing the bounding box in the suitable direction to match the original object size
+	is to be done for the latter 
+	
+	- These methods only works under the assumption that objects are all of varying colors
+
+
+## Day 15/30(October 14, 2019):
+
+> 1. Took a pass through the OpenPose paper
+
+	- Employs a bottom approach for finding poses and hence can achieve realtime performance
+	irrespective of the number of people in the image
+	- Part confidence maps denote the probability of each image pixel being part of a particular body part 
+	- Part Affine Fields denote relationship between different joints
+	- Utilizes both these to greedly map the found joints to each person
+	
+	
 ## Day 14/30(October 13, 2019):
 
 > 1. Learnt about active learning and how to get better accuracies for your model with lesser data
