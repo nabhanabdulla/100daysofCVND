@@ -15,9 +15,11 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 	of objects involved
 	- Visualized output of convolving using different filters and passing them via ReLU activation
 
-<img src="images/visualize_filters.jpg">
-<img src="images/visualize_filter_outputs.jpg">
-<img src="images/visualize_relu.jpg">
+<img src="images/17. visualize_filters.jpg">
+
+<img src="images/17. visualize_filter_outputs.jpg">
+
+<img src="images/17. visualize_relu.jpg">
 	
 
 ## Day 16/100(October 15, 2019):
