@@ -2,7 +2,25 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
-## Day 16/30(October 15, 2019):
+## Day 17/100(October 16, 2019):
+
+> 1. Learnt about different layers in a CNN
+
+	- Convolutional Layer: extracts different features from the image like color, edges etc 
+	using convolutional filters(or kernels). Output of convolving filters through the image are 
+	passed through an activation function
+	- Pooling Layer: used to reduce the spatial dimensionality of the feature maps. Helps in reducing
+	the no.of parameters as well as to generalize by taking a representative from each region
+	- Fully connected layers: normal neural network layer and helps in producing classification scores for different classes
+	of objects involved
+	- Visualized output of convolving using different filters and passing them via ReLU activation
+
+<img src="images/visualize_filters.jpg">
+<img src="images/visualize_filter_outputs.jpg">
+<img src="images/visualize_relu.jpg">
+	
+
+## Day 16/100(October 15, 2019):
 
 > 1. Learnt about carrying out object detection on occlusion
 
@@ -18,7 +36,7 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 	- These methods only works under the assumption that objects are all of varying colors
 
 
-## Day 15/30(October 14, 2019):
+## Day 15/100(October 14, 2019):
 
 > 1. Took a pass through the OpenPose paper
 
@@ -29,7 +47,7 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 	- Utilizes both these to greedly map the found joints to each person
 	
 	
-## Day 14/30(October 13, 2019):
+## Day 14/100(October 13, 2019):
 
 > 1. Learnt about active learning and how to get better accuracies for your model with lesser data
 
