@@ -2,6 +2,15 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 18/100(October 17, 2019):
+
+* Global average pooling returns a single value which is average of all values in a feature map(a bit harsh!)
+* Dropout layer remove nodes with a certain probability on each iteration to avoid certain nodes getting trained more!
+* Three important types of features(for an image) are edges, corners and blobs. Corners as they can uniquely identify certain
+regions can be more helpful
+* Dilation thickens brighter areas of images by adding pixels to the boundaries of objects while erosion thins the brighter areas by removing pixels from object boundaries
+	
+
 ## Day 17/100(October 16, 2019):
 
 > 1. Learnt about different layers in a CNN
