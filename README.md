@@ -2,6 +2,26 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 21/100(October 20, 2019):
+
+1. Attended webinar on Intro to Neural Networks by Pranjal Chaubey
+
+
+## Day 20/100(October 19, 2019):
+
+1. Working on the Facial Keypoint Detection project 
+	- Tried around with different learning rate and added dropout layer 
+	- Ran for 10 epochs but the loss isn't varying much, might have to try a more complex model
+
+## Day 19/100(October 18, 2019):
+
+1. Started training model for Facial Detection Keypoint project
+	- There are a total of 3462 images
+	- There are 2 conv layers and 2 fully connected layers 
+	- Used ReLU activation on output of conv layer and followed by max pooling
+	- Trained for 1 epoch using Mean Square Error as loss and SGD optimiser with learning rate 0.01
+	- Loss is oscillating b/w 0.3-0.4
+
 ## Day 18/100(October 17, 2019):
 
 * Global average pooling returns a single value which is average of all values in a feature map(a bit harsh!)
