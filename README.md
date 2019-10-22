@@ -2,6 +2,18 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 23/30(October 22, 2019):
+
+1. Learnt about math behind PCA
+	- Two methods: diagonalizing Covariance matrix of inputs or by SVD
+	- Is a non-parametric method and hence doesn't take into account properties of data distribution
+	
+	
+## Day 22/30(October 21, 2019):
+
+1. Working on Facial keypoint detection project
+
+
 ## Day 21/100(October 20, 2019):
 
 1. Attended webinar on Intro to Neural Networks by Pranjal Chaubey
@@ -32,7 +44,7 @@ regions can be more helpful
 	
 
 ## Day 17/100(October 16, 2019):
-
+A
 > 1. Learnt about different layers in a CNN
 
 	- Convolutional Layer: extracts different features from the image like color, edges etc 
