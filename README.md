@@ -44,7 +44,7 @@ regions can be more helpful
 	
 
 ## Day 17/100(October 16, 2019):
-A
+
 > 1. Learnt about different layers in a CNN
 
 	- Convolutional Layer: extracts different features from the image like color, edges etc 
