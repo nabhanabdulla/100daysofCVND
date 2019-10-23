@@ -2,14 +2,23 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
-## Day 23/30(October 22, 2019):
+## Day 24/100(October 23, 2019):
+
+1. Learnt about localization in images
+	- Involves finding the location of a single object in the image
+	- Localization can be treated as regressing out bounding box data
+	- Can swap out fc layers of CNNs trained for classification to 
+	train new ones on a regression loss(like L2 loss) instead of softmax incase of classification 
+
+
+## Day 23/100(October 22, 2019):
 
 1. Learnt about math behind PCA
 	- Two methods: diagonalizing Covariance matrix of inputs or by SVD
 	- Is a non-parametric method and hence doesn't take into account properties of data distribution
 	
 	
-## Day 22/30(October 21, 2019):
+## Day 22/100(October 21, 2019):
 
 1. Working on Facial keypoint detection project
 
@@ -95,25 +104,25 @@ regions can be more helpful
 > 1. Learnt about active learning and how to get better accuracies for your model with lesser data
 
 
-## Day 13/30(October 12, 2019):
+## Day 13/100(October 12, 2019):
 
 > 1. Completed Lecture 2 of Matrix Methods in Data Analysis, Signal Processing, and Machine Learning 
 > 2. Completed CS231N CNN lecture
 
 
-## Day 12/30(October 11, 2019):
+## Day 12/100(October 11, 2019):
 
 
 > 1. Continue working on Facial Keypoint Detection project
 > 2. Watched part of CS231n CNN lecture
 
 
-## Day 11/30(October 10 2019):
+## Day 11/100(October 10 2019):
 
 > 1. Played around with Facial Keypoint Detection project
 
 
-## Day 10/30(October 09 2019):
+## Day 10/100(October 09 2019):
 
 > 1. Learnt about Haar Cascades for object detection and used pretrained face-detector architecture
 	to detect faces using OpenCV 
@@ -140,7 +149,7 @@ regions can be more helpful
 	- OpenCV has a built-in deep neural network module which has pretrained model for face detection.
 
 			
-## Day 9/30(October 08, 2019):
+## Day 9/100(October 08, 2019):
 
 > 1. Completed [AI programming for Robotics localization](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373) exercises 
 
@@ -177,7 +186,7 @@ regions can be more helpful
 
 	* Completed [APIs Explorer: Qwik Start](https://www.qwiklabs.com/focuses/2457?parent=catalog) hand-on lab
 			
-## Day 8/30(October 07, 2019)::
+## Day 8/100(October 07, 2019)::
 
 > 1.Learnt about Hough transform for circles
 
@@ -186,13 +195,13 @@ regions can be more helpful
 > 3.Completed [WorldQuant University](https://wqu.org/programs/data-science) OOPS mini-project - coded k-means from scratch
 
 
-## Day 7/30(October 06, 2019):
+## Day 7/100(October 06, 2019):
 
 > 1. Learnt about Hough transform and used OpenCV to detect edges using Hough Transform
       <img src="images/7.hough-line.jpg">
       
 
-## Day 6/30(October 05, 2019):
+## Day 6/100(October 05, 2019):
 
 > 1. Discussed computer vision and tips to make good progress in the nanodegree in the first Computer Vision weekly meetup
       <img src="images/6.cvnd_meetup.png">
@@ -203,7 +212,7 @@ regions can be more helpful
 > 3. Watched MIT Self Driving Car State of the Art lecture
 
 
-## Day 5/30(October 04, 2019):
+## Day 5/100(October 04, 2019):
 
 **1. CVND**:
 
@@ -211,13 +220,13 @@ regions can be more helpful
 	<img src="images/5.canny_brain.jpg">
 
 
-## Day 4/30(October 03, 2019):
+## Day 4/100(October 03, 2019):
 
 > Digged deep in to fourier transforms and how they work? 
 	Seems like there's a lot of applications to it. No wonder why Professor Gilbert Strang said that FFT is the most important numerical algorithm of our lifetime. There's still some things about it I don't really understand. But that's okay there's 2mrw.
 
    
-## Day 3/30(October 02, 2019):
+## Day 3/100(October 02, 2019):
 
 > **1. CVND**:
 
