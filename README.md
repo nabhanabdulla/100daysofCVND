@@ -2,6 +2,26 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 25/30(October 24, 2019):
+
+1. Learnt about detection in images
+	- R-CNN is slower as for each region proposal it had to run a forward pass of CNN
+	- Fast R-CNN extracts region of interests from feature maps produced by conv layer 
+	and hence requiring a single CNN pass. Here, the bottleneck is finding the region of interests 
+	using an external method
+	- Faster R-CNN uses a region proposal network as part of the CNN architecture and hence speeds up
+	the process as both region proposals and classification are incorporated into a single network 
+	- While R-CNN methods took detection as a classification problem(classifying each region proposal into 
+	different classes), YOLO approaches detection as a regression problem
+	- YOLO works on the image by splitting it into grids of particular size. Then, make predictions for a 
+	predefined no.of bounding boxes	inside the grid. The output will be the bounding box coordinates, 
+	confidence score of presence of an object in the bbox and class scores for all possible class of objects
+	- One disadvantage is that as we are limiting the no.of bbox'es that are to be evaluated for object presence
+	in each grid, if there are more objects in the grid than the available bboxes, classification won't occur
+	- YOLO does real-time detection but with lesser mean average precision(average of precisions across all classes)
+	than Faster R-CNN
+
+
 ## Day 24/100(October 23, 2019):
 
 1. Learnt about localization in images
