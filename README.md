@@ -2,7 +2,12 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
-## Day 27/100(October 26 2019):
+## Day 28/100(October 27, 2019):
+
+1. Completed [Tensorflow for Poets](https://www.qwiklabs.com/focuses/1095?parent=catalog) lab Qwiklabs
+
+
+## Day 27/100(October 26, 2019):
 
 1. Learnt about feature visualization 
 	- It is possible to make some sense of what patterns the CNN is picking on 
