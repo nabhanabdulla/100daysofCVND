@@ -2,7 +2,22 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
-## Day 30/100(October 28, 2019):
+## Day 1/100(November 03, 2019):
+
+Lost my 31 day streak of learning computer vision :disappointed:
+
+Guess what, I get to start again on Day 1 :sunglasses:
+
+1. Revisited topics on object localization and detection. See my notes [here]( https://colab.research.google.com/drive/1y_8WpSHw_QMsrtuuyQkiiziPAvsc1DFW#scrollTo=DNekCiJX30tv)
+2. Started working on Garbage classification project. Researched on available datasets and found one [here]( https://github.com/garythung/trashnet)
+
+
+## Day 31/100(October 30, 2019):
+
+1. Working on facial keypoint detection project
+
+
+## Day 30/100(October 29, 2019):
 
 1. Working on facial keypoint detection project
 
