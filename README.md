@@ -2,6 +2,13 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 2/100(November 04, 2019):
+
+1. CVND(Extracurricular Section - C++ Programming) - Translated naive robot localization implementation in [Python](https://github.com/nabhanabdulla/CVND_Exercises/blob/master/cpp/Lesson%203-%20Practical%20C%2B%2B/localization.py) to [C++](https://github.com/nabhanabdulla/CVND_Exercises/blob/master/cpp/Lesson%203-%20Practical%20C%2B%2B/localization.cpp)
+	- The position of the robot is estimated by sensing its environment
+	- Sensing increases the confidence of position estimate
+	- Movement increases uncertainty in position estimation
+
 ## Day 1/100(November 03, 2019):
 
 Lost my 31 day streak of learning computer vision :disappointed:
