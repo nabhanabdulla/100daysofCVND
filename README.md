@@ -2,6 +2,14 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 3/100(November 05, 2019):
+
+1. Completed **Advanced CNN Architectures** section of CV nanodegree
+	* *Faster R-CNN* increases performance over *Fast R-CNN* by using an inhouse(within the CNN) **Region Proposal Network**
+	for predicting Region of Interests(ROI) inplace of selective search used in Fast R-CNN
+	* Models like YOLO and SSD increase performance by not using region proposals at all
+	* See my notes [here]( https://colab.research.google.com/drive/1y_8WpSHw_QMsrtuuyQkiiziPAvsc1DFW#scrollTo=DNekCiJX30tv)
+	
 ## Day 2/100(November 04, 2019):
 
 1. CVND(Extracurricular Section - C++ Programming) - Translated naive robot localization implementation in [Python](https://github.com/nabhanabdulla/CVND_Exercises/blob/master/cpp/Lesson%203-%20Practical%20C%2B%2B/localization.py) to [C++](https://github.com/nabhanabdulla/CVND_Exercises/blob/master/cpp/Lesson%203-%20Practical%20C%2B%2B/localization.cpp)
