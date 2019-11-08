@@ -2,6 +2,28 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 6/100(November 08, 2019):
+
+1. Looked upon visualization techniques for what CNN's learning or what features of the image are different layers of a CNN focusing on from part of [this CS231N lecture](https://lnkd.in/fjNENZs)
+
+## Day 5/100(November 07, 2019):
+
+1. Performed garbage classification
+	- Used a 3 layer CNN and got accuracy of 75.3% on training for 50epochs
+	- Used pretrained VGG16 and fine-tuned the FC layer to get 84% accuracy by training for just 2 epochs
+	- Dataset: https://lnkd.in/fQWSASM
+
+
+## Day 4/100(November 06, 2019):
+
+1. YOLO 
+   - YOLO is a realtime object detection method as it doesn't generate region proposals
+   - Instead of predicting classes and bounding box separately like in case of R-CNN models
+	YOLO predicts a single vector of class probabilities and bounding box coordinates
+   - YOLO divides images into grids of constant size and predicts output vectors for 
+	anchor boxes in each grid 
+	
+	
 ## Day 3/100(November 05, 2019):
 
 1. Completed **Advanced CNN Architectures** section of CV nanodegree
