@@ -2,6 +2,22 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 8/100(November 10, 2019):
+
+1. Learnt about RNNs from part of [this CS231n lecture](https://www.youtube.com/watch?v=yCC09vCHzF8)
+	- RNNs can be used for applications where we need to work on sequential input/output
+	- Some applications are image captioning, sentiment classification, machine translation and frame-wise video classification 
+	- At each time step, the predictions are affected by the previous time steps
+	- Data is processed in chunks due to memory reasons like batch size for images
+	- The same function(dependent on the weights) is used for one round of processing over a batch of data
+
+
+## Day 7/100(November 09, 2019):
+
+1. Got an introduction to DeepDream, Neural Style Transfer and Adversarial examples on CNNs from [this CS231N lecture](
+youtube.com/watch?v=ta5fdaqDT3M)
+
+
 ## Day 6/100(November 08, 2019):
 
 1. Looked upon visualization techniques for what CNN's learning or what features of the image are different layers of a CNN focusing on from part of [this CS231N lecture](https://lnkd.in/fjNENZs)
