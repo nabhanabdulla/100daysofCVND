@@ -2,6 +2,40 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 13/100(November 15, 2019):
+
+1. Learnt about the basics of LSTM from CVND
+	- RNN fails for networks over 8-10 timesteps due to VANISHING GRADIENTS problem
+	- Even though RNNs suffer from EXPLODING GRADIENTS(gradients uncontrollably increasing), gradient clipping can be done. Gradient clipping involves checking the gradient at each timestep to ensure it's value to be less than a threshold and if not normalizing it
+	- LSTMs are a workaround for the vanishing gradient problem in RNNs and can support networks of over 1000 timesteps
+	- Instead of weighted addition of input and previous state in RNN cell to produce the new state, LSTM cells use a combination of sigmoid, hyperbolic tangent, multiplication and addition operations and still is completely differentiable so that we can backpropagate through them
+	- Sigmoid allows differentiating b/w info that has to be passed to next timestep/to be retained
+
+<img src="images/lstm_cell_ops.png" width="480p">
+
+
+## Day 12/100(November 14, 2019):
+
+1. Learnt about RNNs from RNN lesson in CVND
+	- folded and unfolded representation of RNN
+	- updating weights using Back-Propogation Through Time(BPTT)
+	
+	
+## Day 11/100(November 13, 2019):
+
+1. Learning about RNN's from CVND lesson on RNN
+
+
+## Day 10/100(November 12, 2019):
+
+1. Got an introduction to one-shot learning, siamese networks and triplet loss used in siamese networks from [this blog](http://datahacker.rs/one-shot-learning-with-siamese-neural-network/)
+
+
+## Day 9/100(November 11, 2019):
+
+1. Trying to setup pose estimation model
+
+
 ## Day 8/100(November 10, 2019):
 
 1. Learnt about RNNs from part of [this CS231n lecture](https://www.youtube.com/watch?v=yCC09vCHzF8)
