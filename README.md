@@ -2,6 +2,174 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 8/100(November 10, 2019):
+
+1. Learnt about RNNs from part of [this CS231n lecture](https://www.youtube.com/watch?v=yCC09vCHzF8)
+	- RNNs can be used for applications where we need to work on sequential input/output
+	- Some applications are image captioning, sentiment classification, machine translation and frame-wise video classification 
+	- At each time step, the predictions are affected by the previous time steps
+	- Data is processed in chunks due to memory reasons like batch size for images
+	- The same function(dependent on the weights) is used for one round of processing over a batch of data
+
+
+## Day 7/100(November 09, 2019):
+
+1. Got an introduction to DeepDream, Neural Style Transfer and Adversarial examples on CNNs from [this CS231N lecture](
+youtube.com/watch?v=ta5fdaqDT3M)
+
+
+## Day 6/100(November 08, 2019):
+
+1. Looked upon visualization techniques for what CNN's learning or what features of the image are different layers of a CNN focusing on from part of [this CS231N lecture](https://lnkd.in/fjNENZs)
+
+## Day 5/100(November 07, 2019):
+
+1. Performed garbage classification
+	- Used a 3 layer CNN and got accuracy of 75.3% on training for 50epochs
+	- Used pretrained VGG16 and fine-tuned the FC layer to get 84% accuracy by training for just 2 epochs
+	- Dataset: https://lnkd.in/fQWSASM
+
+
+## Day 4/100(November 06, 2019):
+
+1. YOLO 
+   - YOLO is a realtime object detection method as it doesn't generate region proposals
+   - Instead of predicting classes and bounding box separately like in case of R-CNN models
+	YOLO predicts a single vector of class probabilities and bounding box coordinates
+   - YOLO divides images into grids of constant size and predicts output vectors for 
+	anchor boxes in each grid 
+	
+	
+## Day 3/100(November 05, 2019):
+
+1. Completed **Advanced CNN Architectures** section of CV nanodegree
+	* *Faster R-CNN* increases performance over *Fast R-CNN* by using an inhouse(within the CNN) **Region Proposal Network**
+	for predicting Region of Interests(ROI) inplace of selective search used in Fast R-CNN
+	* Models like YOLO and SSD increase performance by not using region proposals at all
+	* See my notes [here]( https://colab.research.google.com/drive/1y_8WpSHw_QMsrtuuyQkiiziPAvsc1DFW#scrollTo=DNekCiJX30tv)
+	
+## Day 2/100(November 04, 2019):
+
+1. CVND(Extracurricular Section - C++ Programming) - Translated naive robot localization implementation in [Python](https://github.com/nabhanabdulla/CVND_Exercises/blob/master/cpp/Lesson%203-%20Practical%20C%2B%2B/localization.py) to [C++](https://github.com/nabhanabdulla/CVND_Exercises/blob/master/cpp/Lesson%203-%20Practical%20C%2B%2B/localization.cpp)
+	- The position of the robot is estimated by sensing its environment
+	- Sensing increases the confidence of position estimate
+	- Movement increases uncertainty in position estimation
+
+## Day 1/100(November 03, 2019):
+
+Lost my 31 day streak of learning computer vision :disappointed:
+
+Guess what, I get to start again on Day 1 :sunglasses:
+
+1. Revisited topics on object localization and detection. See my notes [here]( https://colab.research.google.com/drive/1y_8WpSHw_QMsrtuuyQkiiziPAvsc1DFW#scrollTo=DNekCiJX30tv)
+2. Started working on Garbage classification project. Researched on available datasets and found one [here]( https://github.com/garythung/trashnet)
+
+
+## Day 31/100(October 30, 2019):
+
+1. Working on facial keypoint detection project
+
+
+## Day 30/100(October 29, 2019):
+
+1. Working on facial keypoint detection project
+
+
+## Day 29/100(October 28, 2019):
+
+1. Completed [Awwvision: Cloud Vision API from a Kubernetes Cluster](https://www.qwiklabs.com/focuses/1241?parent=catalog) lab on Qwiklabs
+
+
+## Day 28/100(October 27, 2019):
+
+1. Completed [Tensorflow for Poets](https://www.qwiklabs.com/focuses/1095?parent=catalog) lab Qwiklabs
+
+
+## Day 27/100(October 26, 2019):
+
+1. Learnt about feature visualization 
+	- It is possible to make some sense of what patterns the CNN is picking on 
+	by inspecting the filters learnt
+	- While for the first conv layer simply displaying the filters would do, for the
+	subsequent layers we have to check the activations generated on passing images through
+	the filters 
+	
+
+## Day 26/100(October 25, 2019):
+
+1. Completed **[Classify Images of Clouds in the Cloud with AutoML Vision](https://www.qwiklabs.com/focuses/8406?parent=catalog)** lab on Qwiklabs 
+
+
+## Day 25/100(October 24, 2019):
+
+1. Learnt about detection in images
+	- R-CNN is slower as for each region proposal it had to run a forward pass of CNN
+	- Fast R-CNN extracts region of interests from feature maps produced by conv layer 
+	and hence requiring a single CNN pass. Here, the bottleneck is finding the region of interests 
+	using an external method
+	- Faster R-CNN uses a region proposal network as part of the CNN architecture and hence speeds up
+	the process as both region proposals and classification are incorporated into a single network 
+	- While R-CNN methods took detection as a classification problem(classifying each region proposal into 
+	different classes), YOLO approaches detection as a regression problem
+	- YOLO works on the image by splitting it into grids of particular size. Then, make predictions for a 
+	predefined no.of bounding boxes	inside the grid. The output will be the bounding box coordinates, 
+	confidence score of presence of an object in the bbox and class scores for all possible class of objects
+	- One disadvantage is that as we are limiting the no.of bbox'es that are to be evaluated for object presence
+	in each grid, if there are more objects in the grid than the available bboxes, classification won't occur
+	- YOLO does real-time detection but with lesser mean average precision(average of precisions across all classes)
+	than Faster R-CNN
+
+
+## Day 24/100(October 23, 2019):
+
+1. Learnt about localization in images
+	- Involves finding the location of a single object in the image
+	- Localization can be treated as regressing out bounding box data
+	- Can swap out fc layers of CNNs trained for classification to 
+	train new ones on a regression loss(like L2 loss) instead of softmax incase of classification 
+
+
+## Day 23/100(October 22, 2019):
+
+1. Learnt about math behind PCA
+	- Two methods: diagonalizing Covariance matrix of inputs or by SVD
+	- Is a non-parametric method and hence doesn't take into account properties of data distribution
+	
+	
+## Day 22/100(October 21, 2019):
+
+1. Working on Facial keypoint detection project
+
+
+## Day 21/100(October 20, 2019):
+
+1. Attended webinar on Intro to Neural Networks by Pranjal Chaubey
+
+
+## Day 20/100(October 19, 2019):
+
+1. Working on the Facial Keypoint Detection project 
+	- Tried around with different learning rate and added dropout layer 
+	- Ran for 10 epochs but the loss isn't varying much, might have to try a more complex model
+
+## Day 19/100(October 18, 2019):
+
+1. Started training model for Facial Detection Keypoint project
+	- There are a total of 3462 images
+	- There are 2 conv layers and 2 fully connected layers 
+	- Used ReLU activation on output of conv layer and followed by max pooling
+	- Trained for 1 epoch using Mean Square Error as loss and SGD optimiser with learning rate 0.01
+	- Loss is oscillating b/w 0.3-0.4
+
+## Day 18/100(October 17, 2019):
+
+* Global average pooling returns a single value which is average of all values in a feature map(a bit harsh!)
+* Dropout layer remove nodes with a certain probability on each iteration to avoid certain nodes getting trained more!
+* Three important types of features(for an image) are edges, corners and blobs. Corners as they can uniquely identify certain
+regions can be more helpful
+* Dilation thickens brighter areas of images by adding pixels to the boundaries of objects while erosion thins the brighter areas by removing pixels from object boundaries
+	
+
 ## Day 17/100(October 16, 2019):
 
 > 1. Learnt about different layers in a CNN
@@ -15,9 +183,11 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 	of objects involved
 	- Visualized output of convolving using different filters and passing them via ReLU activation
 
-<img src="images/visualize_filters.jpg">
-<img src="images/visualize_filter_outputs.jpg">
-<img src="images/visualize_relu.jpg">
+<img src="images/17. visualize_filters.jpg">
+
+<img src="images/17. visualize_filter_outputs.jpg">
+
+<img src="images/17. visualize_relu.jpg">
 	
 
 ## Day 16/100(October 15, 2019):
@@ -52,25 +222,25 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 > 1. Learnt about active learning and how to get better accuracies for your model with lesser data
 
 
-## Day 13/30(October 12, 2019):
+## Day 13/100(October 12, 2019):
 
 > 1. Completed Lecture 2 of Matrix Methods in Data Analysis, Signal Processing, and Machine Learning 
 > 2. Completed CS231N CNN lecture
 
 
-## Day 12/30(October 11, 2019):
+## Day 12/100(October 11, 2019):
 
 
 > 1. Continue working on Facial Keypoint Detection project
 > 2. Watched part of CS231n CNN lecture
 
 
-## Day 11/30(October 10 2019):
+## Day 11/100(October 10 2019):
 
 > 1. Played around with Facial Keypoint Detection project
 
 
-## Day 10/30(October 09 2019):
+## Day 10/100(October 09 2019):
 
 > 1. Learnt about Haar Cascades for object detection and used pretrained face-detector architecture
 	to detect faces using OpenCV 
@@ -97,7 +267,7 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 	- OpenCV has a built-in deep neural network module which has pretrained model for face detection.
 
 			
-## Day 9/30(October 08, 2019):
+## Day 9/100(October 08, 2019):
 
 > 1. Completed [AI programming for Robotics localization](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373) exercises 
 
@@ -134,7 +304,7 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 
 	* Completed [APIs Explorer: Qwik Start](https://www.qwiklabs.com/focuses/2457?parent=catalog) hand-on lab
 			
-## Day 8/30(October 07, 2019)::
+## Day 8/100(October 07, 2019)::
 
 > 1.Learnt about Hough transform for circles
 
@@ -143,13 +313,13 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 > 3.Completed [WorldQuant University](https://wqu.org/programs/data-science) OOPS mini-project - coded k-means from scratch
 
 
-## Day 7/30(October 06, 2019):
+## Day 7/100(October 06, 2019):
 
 > 1. Learnt about Hough transform and used OpenCV to detect edges using Hough Transform
       <img src="images/7.hough-line.jpg">
       
 
-## Day 6/30(October 05, 2019):
+## Day 6/100(October 05, 2019):
 
 > 1. Discussed computer vision and tips to make good progress in the nanodegree in the first Computer Vision weekly meetup
       <img src="images/6.cvnd_meetup.png">
@@ -160,7 +330,7 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 > 3. Watched MIT Self Driving Car State of the Art lecture
 
 
-## Day 5/30(October 04, 2019):
+## Day 5/100(October 04, 2019):
 
 **1. CVND**:
 
@@ -168,13 +338,13 @@ Updating and tracking progress for [#30daysofudacity](https://sites.google.com/u
 	<img src="images/5.canny_brain.jpg">
 
 
-## Day 4/30(October 03, 2019):
+## Day 4/100(October 03, 2019):
 
 > Digged deep in to fourier transforms and how they work? 
 	Seems like there's a lot of applications to it. No wonder why Professor Gilbert Strang said that FFT is the most important numerical algorithm of our lifetime. There's still some things about it I don't really understand. But that's okay there's 2mrw.
 
    
-## Day 3/30(October 02, 2019):
+## Day 3/100(October 02, 2019):
 
 > **1. CVND**:
 
