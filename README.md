@@ -2,6 +2,18 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 15/100(November 17, 2019):
+
+1. Learnt about different hyperparameters for a neural network and some heuristics for setting these values
+	- learning rate, batch size and iterations
+	- no.of layers, choice between RNN/LSTM/GRU
+	
+
+## Day 14/100(November 16, 2019):
+
+1. Continue learning about LSTM networks from CVND
+
+
 ## Day 13/100(November 15, 2019):
 
 1. Learnt about the basics of LSTM from CVND
