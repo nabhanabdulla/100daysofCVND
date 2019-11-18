@@ -2,6 +2,14 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 16/100(November 18, 2019):
+
+1. Learnt about sequence2sequence models using attention from CVND
+	- advantage of attention over normal seq2seq
+	- multiplicative and additive attention
+	- applications in computer vision and nlp
+	
+	
 ## Day 15/100(November 17, 2019):
 
 1. Learnt about different hyperparameters for a neural network and some heuristics for setting these values
