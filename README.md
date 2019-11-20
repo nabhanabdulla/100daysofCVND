@@ -2,9 +2,14 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 18/100(November 20, 2019):
+
+1. Working on running [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) models
+
+
 ## Day 17/100(November 19, 2019):
 
-1. Working on running [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) model		
+1. Trying out running [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) model		
 
 
 ## Day 16/100(November 18, 2019):
