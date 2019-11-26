@@ -1,6 +1,17 @@
 # 100daysofCVND 30daysofudacity
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
+
+## Day 23/100(November 25, 2019):
+
+1. Got introduced to accelerating PyTorch computation in CPU from Intel's "Getting Started with PyTorch with Optimizations for Intel® Architecture" webinar
+
+
+## Day 22/100(November 24, 2019):
+
+1. Discussed retail analytics using computer vision project with mentor
+
+
 ## Day 21/100(November 23, 2019):
 
 1. Tried out pre-trained pose estimation model
