@@ -2,6 +2,52 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 32/100(December 04, 2019):
+
+1. Learnt about using LSTM in Pytorch as preparation for Image Captioning project
+
+
+## Day 31/100(December 03, 2019):
+
+1. Working on retail analysis project as part of Bachelor's project
+
+
+## Day 30/100(December 02, 2019):
+
+1. Working on retail analysis project as part of Bachelor's project
+
+
+## Day 29/100(December 01, 2019):
+
+1. Working on retail analysis project as part of Bachelor's project
+
+
+## Day 28/100(November 30, 2019):
+
+1. Worked on retail analysis project as part of Bachelor's project
+
+
+## Day 27/100(November 29, 2019):
+
+1. Worked on retail analysis project as part of Bachelor's project
+
+
+## Day 26/100(November 28, 2019):
+
+1. Worked on retail analysis project as part of Bachelor's project
+
+
+## Day 25/100(November 27, 2019):
+
+1. Checked on LSTM's and Image captioning from the second part of this CS231N lecture
+https://www.youtube.com/watch?v=yCC09vCHzF8&t=1878s
+
+
+## Day 24/100(November 26, 2019):
+
+1. Working on garbage classification using Pytorch
+
+
 ## Day 23/100(November 25, 2019):
 
 1. Got introduced to accelerating PyTorch computation in CPU from Intel's "Getting Started with PyTorch with Optimizations for Intel® Architecture" webinar
