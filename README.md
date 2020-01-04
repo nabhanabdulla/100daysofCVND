@@ -2,6 +2,238 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 61/100(January 03, 2020):
+
+1. Learnt about imaging models and camera attributes
+	- We can change the distance b/w the sensor frame and the lens to focus at objects at different distance 
+	- Depth of field is how much the focus changes with distance from the focused point. Smaller aperture lenses
+	provide better depth of field ie, the regions near the focused distance will also be reducingly focused 
+	- Due to depth of field, we can use a larger aperture lens for focusing on the foreground and blurring the background.
+	- Larger focal length lenses can capture distant objects but will have highly reduced field of vision 
+	- Smaller focal length and larger image sensor frame gives higher field of view
+
+2. CVND 
+	- Learnt about representing motion state as vector and calculating motion using matrix multiplication with state transformation matrix
+	- Kalman filter is able to estimate unknown state variables fro observed data. For eg, velocity given position data
+	<img src="images/60. Motion-model-path.png" width="640">
+
+## Day 60/100(January 02, 2020):
+
+1. CVND - learnt about states and motion models
+	- Used basic motion model to update state of motion of object 
+	- Use Vehicle objects(OOPS) to continously keep track of the object motion 
+
+
+## Day 59/100(January 01, 2020):
+
+1. CVND - Learnt about kalman filters and implemented a 1D kalman filter 
+	- Kalman filters helps to make sense of uncertain measurements and can predict future motion
+	- The measurement update step involves sensing and output is the product of the current and previous pdfs
+	- The motion prediction step involves adding the two pdfs and hence increases uncertainty
+
+
+## Day 58/100(December 31, 2019):
+
+1. CVND 
+	- Learnt about how features like sensor frame size, sensor quality and dynamic range of the scene affect image quality
+
+
+## Day 57/100(December 30, 2019):
+
+1. CVND 
+	- Working on implementing 2D histogram filter for localisation
+
+
+## Day 56/100(December 29, 2019):
+
+1. Intel Edge AI Scholarship foundation course 
+	- Learnt and implemented preprocessing the inputs to the required format for the pre-trained models in the OpenVino model zoo
+	
+2. CVND 
+  	- Learnt about Monte Carlo localization filter and implementing a 2D filter 
+
+   
+## Day 55/100(December 28, 2019):
+
+1. Intel Edge AI Scholarship foundation course 
+	- Checked different pretrained models in the OpenVINO model zoo 
+	- Familiarised with downloading pretrained OpenVINO models-human pose estimation, text detection and vehicle attribute classification 
+
+
+## Day 54/100(December 27, 2019):
+
+1. Got introduced to Image Restoration methods from an Invited lecture at college. It was presented by Dr.Nimisha from KLA+.
+Thanks Dr.Nimisha for an informative session and IEEE NITC chapter for hosting the event.
+	<img src="images/54.tshirt.jpg" height="360">
+	
+2. Learnt and implemented Optical Flow in OpenCV. 
+	- Shi-Tomasi is an improvement over the Harris corner detector and the difference is the 
+	scoring function used
+	- Lucas-Kanade estimates optical flow
+	<img src="images/54.optical-flow.png" width="640">
+
+## Day 53/100(December 26, 2019):
+
+1. Worked on video analysis project
+
+
+## Day 52/100(December 25, 2019):
+
+1. Looked at visual question answering and generative models
+
+
+## Day 51/100(December 24, 2019):
+
+1. Started learning about object tracking from CV nanodegree
+
+
+## Day 50/100(December 23, 2019):
+
+1. Bid adieu to Day 50 completing Image Captioning project of Computer-Vision Nanodegree using CNN-RNN architecture
+	- Some good predictions and failures attached
+	<p float="left" align="center">
+	  <img src="images/50.nadal.png" alt="Nadal" width="49%">
+
+	  <img src="images/50.plane.png" alt="Plane" width="49%">
+	</p>
+	<p float="left" align="center">
+	  <img src="images/50.fail-brush.png" alt="Fail-Brush" width="49%">
+
+	  <img src="images/50.fail-cow.png" alt="FAil-Cow" width="49%">
+	</p>
+	
+
+## Day 49/100(December 22 2019):
+
+"We judge ourselves by our intentions and others by their action"
+
+1. Working on image captioning project -
+	- Have been tuning hyperparameters for improving model performance.
+	- Apparently, I've been using softmax layers for normalising the output token(word) scores. I didn't actually think of why I was using it initially, just came in as softmax is normally used in the last linear layer. But, as getting the probabilities weren't necessary, it was a computational overhead and more than that, affecting the model performance.
+
+	Thanks, Victor Ayi for pointing this out. A little bit of thinking "Why" when using/saying anything can help a lot.
+
+2. Watching the "AI Podcast" - hearing Sebastian Thrun talk always turns out to be inspiring
+
+
+## Day 48/100(December 21, 2019):
+
+1. Working on image captioning project 
+
+
+## Day 47/100(December 20, 2019):
+
+1. Working on image captioning project 
+
+
+## Day 46/100(December 19, 2019):
+
+1. Learnt about basics of Variational Autoencoders and GANs from this CS231N lecture 
+https://www.youtube.com/watch?v=ekyBklxwQMU
+	- Variational auto-encoders asks the traditional autoencoder - Why can't you generate new images rather than an impostor?
+	- VAEs utilizes Bayes rule to it's architecture for approximating the distribution from which the dataset is created so as to 
+	produce new datapoints that doesn't belong to the available dataset but closely related to it.
+	- In traditional autoencoders, we only make use of the encoder network which gives us the latent feature representation after training
+	whereas in VAEs we only utilise the decoder network after training so as to generate new images from them
+	- GANs learns to model the input dataset - this happens by its Generator network that generate new images learns to 
+	create images that the Discriminator network cannot discriminate
+	
+	<p float="left" align="center">
+	  <img src="images/46.VAE.png" alt="VAE" width="49%">
+
+	  <img src="images/46.GAN.png" alt="GANS" width="49%">
+	</p>
+	
+Slide credits - http://cs231n.stanford.edu/slides/2016/winter1516_lecture14.pdf
+
+
+## Day 45/100(December 18, 2019):
+
+1. Familiarised with the MS-COCO dataset and tried out pre-defined functions for image and caption preprocessing 
+provided for working on Image captioning project of CVND
+
+2. Video classification - 
+	- for classification of long videos, a hybdrid CNN network can be used that models RNN. 
+	- Here, input to a conv layer is a function of both the output of the previous conv layer as well as the output of the current layer for the previous image frame. 
+	- This essentially plugs in a type of memory into the ConvNet as all of its layers depend also on the features learnt by the corresponding layers in the previous timestep
+	- The implementation involves for eg. in GRU's replacing matrix multiplication of hidden state vector and the learnt weights, with convolution
+	
+3. Unsupervised learning -
+	- Autoencoders allows applications like clustering, feature extraction etc without requiring labelled dataset
+	- A traditional autoencoder uses an encoder network(can be deep fc layers or CNN) to produce a compressed representation of the input followed by 
+	a decoder network which may(or not) share encoder weights to reconstruct the input image 
+	- So as the network tries to find a latent feature representation with the network output, the image itself, labels aren't required
+
+
+## Day 44/100(December 17, 2019):
+
+1. Got introduced into spatial transformer networks and action classification from videos using 3D convolutions and recurrent networks 
+from part of this CS231N lecture https://www.youtube.com/watch?v=ekyBklxwQMU
+	
+
+## Day 43/100(December 16, 2019):
+
+1. Learnt about instance segmentation and image captioning using attention
+	
+
+## Day 42/100(December 15, 2019):
+
+1. Learnt about semantic segmentation and different methods involved
+	
+
+## Day 41/100(December 14, 2019):
+
+1. Looked at different commonly used image datasets
+	
+
+## Day 40/100(December 13, 2019):
+
+1. Looked at how different deep learning libraries work.
+	
+
+## Day 39/100(December 11, 2019):
+
+1. Got introduced to image processing techniques like camera calibration, distortion correction
+	
+
+## Day 38/100(December 10, 2019):
+
+1. Worked on retail analysis project as part of Bachelor's project
+	
+
+## Day 37/100(December 09, 2019):
+
+1. Started working on a project to predict the next character using LSTM in Pytorch
+
+
+## Day 36/100(December 08, 2019):
+
+1. Learnt about different techniques to speedup convolutions like transforming each part of the image on which filters act 
+to columns for using matrix multiplication, using FFT for larger filter size and using algorithms that speed up computation by 
+using special values for different filters similar to how Strassen's method for matrix multiplication works in less than O(n^3) 
+by cleverly choosing combination of submatrixes
+
+
+## Day 35/100(December 07, 2019):
+
+1. Learnt about different techniques to use in practice when CNN's are involved like - data augmentation, transfer learning, 
+the advantage of using stacks of smaller filters vs large filters from the first part of this CS231n lecture
+https://lnkd.in/f2jkRpx
+
+
+## Day 34/100(December 06, 2019):
+
+1. Learnt about Activity Detection from Video using CNN and LSTM from 
+this Deep Learnig for Visual Computing course from IITKGP
+https://lnkd.in/fkPfEdk
+
+
+## Day 33/100(December 05, 2019):
+
+1. Learnt about working on video data and Spatio-temporal deep learning for video analysis from this Deep Learning for Visual Computing course from IITKGP
+https://lnkd.in/fkPfEdk
+
+
 ## Day 32/100(December 04, 2019):
 
 1. Learnt about using LSTM in Pytorch as preparation for Image Captioning project
@@ -112,7 +344,7 @@ https://www.youtube.com/watch?v=yCC09vCHzF8&t=1878s
 	- Instead of weighted addition of input and previous state in RNN cell to produce the new state, LSTM cells use a combination of sigmoid, hyperbolic tangent, multiplication and addition operations and still is completely differentiable so that we can backpropagate through them
 	- Sigmoid allows differentiating b/w info that has to be passed to next timestep/to be retained
 
-<img src="images/lstm_cell_ops.png" width="480p">
+<img src="images/13.lstm_cell_ops.png" width="480p">
 
 
 ## Day 12/100(November 14, 2019):
