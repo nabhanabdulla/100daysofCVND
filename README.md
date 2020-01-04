@@ -2,6 +2,141 @@
 Updating and tracking progress for [#30daysofudacity](https://sites.google.com/udacity.com/udacity-community-guide/community/30daysofudacity) and #100daysofCVND while learning Udacity [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) as part of [Secure and Private AI Scholarship Challenge 2019 (Facebook and Udacity)](https://sites.google.com/udacity.com/secureprivateai-phase-2/home?authuser=0)
 
 
+## Day 32/100(December 04, 2019):
+
+1. Learnt about using LSTM in Pytorch as preparation for Image Captioning project
+
+
+## Day 31/100(December 03, 2019):
+
+1. Working on retail analysis project as part of Bachelor's project
+
+
+## Day 30/100(December 02, 2019):
+
+1. Working on retail analysis project as part of Bachelor's project
+
+
+## Day 29/100(December 01, 2019):
+
+1. Working on retail analysis project as part of Bachelor's project
+
+
+## Day 28/100(November 30, 2019):
+
+1. Worked on retail analysis project as part of Bachelor's project
+
+
+## Day 27/100(November 29, 2019):
+
+1. Worked on retail analysis project as part of Bachelor's project
+
+
+## Day 26/100(November 28, 2019):
+
+1. Worked on retail analysis project as part of Bachelor's project
+
+
+## Day 25/100(November 27, 2019):
+
+1. Checked on LSTM's and Image captioning from the second part of this CS231N lecture
+https://www.youtube.com/watch?v=yCC09vCHzF8&t=1878s
+
+
+## Day 24/100(November 26, 2019):
+
+1. Working on garbage classification using Pytorch
+
+
+## Day 23/100(November 25, 2019):
+
+1. Got introduced to accelerating PyTorch computation in CPU from Intel's "Getting Started with PyTorch with Optimizations for Intel® Architecture" webinar
+
+
+## Day 22/100(November 24, 2019):
+
+1. Discussed retail analytics using computer vision project with mentor
+
+
+## Day 21/100(November 23, 2019):
+
+1. Tried out pre-trained pose estimation model
+
+
+## Day 20/100(November 22, 2019):
+
+1. Visualized trained model filters and output of images through the different filters for Fashion MNIST
+
+
+## Day 19/100(November 21, 2019):
+
+1. Classified and visualized Fashion MNIST
+	
+	
+## Day 18/100(November 20, 2019):
+
+1. Working on running [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) models
+
+
+## Day 17/100(November 19, 2019):
+
+1. Trying out running [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) model		
+
+
+## Day 16/100(November 18, 2019):
+
+1. Learnt about sequence2sequence models using attention from CVND
+	- advantage of attention over normal seq2seq
+	- multiplicative and additive attention
+	- applications in computer vision and nlp
+	
+	
+## Day 15/100(November 17, 2019):
+
+1. Learnt about different hyperparameters for a neural network and some heuristics for setting these values
+	- learning rate, batch size and iterations
+	- no.of layers, choice between RNN/LSTM/GRU
+	
+
+## Day 14/100(November 16, 2019):
+
+1. Continue learning about LSTM networks from CVND
+
+
+## Day 13/100(November 15, 2019):
+
+1. Learnt about the basics of LSTM from CVND
+	- RNN fails for networks over 8-10 timesteps due to VANISHING GRADIENTS problem
+	- Even though RNNs suffer from EXPLODING GRADIENTS(gradients uncontrollably increasing), gradient clipping can be done. Gradient clipping involves checking the gradient at each timestep to ensure it's value to be less than a threshold and if not normalizing it
+	- LSTMs are a workaround for the vanishing gradient problem in RNNs and can support networks of over 1000 timesteps
+	- Instead of weighted addition of input and previous state in RNN cell to produce the new state, LSTM cells use a combination of sigmoid, hyperbolic tangent, multiplication and addition operations and still is completely differentiable so that we can backpropagate through them
+	- Sigmoid allows differentiating b/w info that has to be passed to next timestep/to be retained
+
+<img src="images/lstm_cell_ops.png" width="480p">
+
+
+## Day 12/100(November 14, 2019):
+
+1. Learnt about RNNs from RNN lesson in CVND
+	- folded and unfolded representation of RNN
+	- updating weights using Back-Propogation Through Time(BPTT)
+	
+	
+## Day 11/100(November 13, 2019):
+
+1. Learning about RNN's from CVND lesson on RNN
+
+
+## Day 10/100(November 12, 2019):
+
+1. Got an introduction to one-shot learning, siamese networks and triplet loss used in siamese networks from [this blog](http://datahacker.rs/one-shot-learning-with-siamese-neural-network/)
+
+
+## Day 9/100(November 11, 2019):
+
+1. Trying to setup pose estimation model
+
+
 ## Day 8/100(November 10, 2019):
 
 1. Learnt about RNNs from part of [this CS231n lecture](https://www.youtube.com/watch?v=yCC09vCHzF8)
